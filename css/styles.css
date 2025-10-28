@@ -1,5 +1,37 @@
+/* #region common */
 body {
-    font-family: "Raleway", "Roboto", sans-serif;
-    color: ;
-    background-color: ;
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
 }
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* #endregion common */
+
+/* #region header */
+/* #endregion header */
+
+
+/* #region hero */
+/* #endregion hero */
+
+
+/* #region Pillars */
+/* #endregion Pillars */
+
+
+/* #region Our Team */
+/* #endregion Our Team */
+
+
+/* #region Portfolio */
+/* #endregion Portfolio */
+
+/* #region footer */
+/* #endregion footer */
