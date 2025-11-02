@@ -12,26 +12,105 @@ ul, ol {
 a {
     text-decoration: none;
 }
+
+.text-iris {
+    color: #4D5AE5;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 /* #endregion common */
 
 /* #region header */
+.page-header {}
+
+.page-nav {}
+
+.main-logo {}
+
+.nav-list {}
+
+.nav-list-item {}
+
+.nav-link {}
+
+.header-address {}
+
+.header-address-list {}
+
+.header-address-item {}
 /* #endregion header */
 
-
 /* #region hero */
+.section-hero {}
+
+.title-hero {}
+ 
+.button-hero {}
+
 /* #endregion hero */
 
-
 /* #region Pillars */
+.section-pillars {}
+
+.pillars-list {}
+
+.pillars-item {}
+
+.pillars-item-title {}
+
+.pillars-item-description {}
+
 /* #endregion Pillars */
 
 
 /* #region Our Team */
+.section-team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-item-image {}
+
+.team-item-title {}
+
+.team-item-description {}
+
 /* #endregion Our Team */
 
 
 /* #region Portfolio */
+.section-portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-list-item {}
+
+.portfolio-list-image {}
+
+.portfolio-list-title {}
+
+.portfolio-list-description {}
+
 /* #endregion Portfolio */
 
 /* #region footer */
+.page-footer {}
+
+.footer-description {}
 /* #endregion footer */
