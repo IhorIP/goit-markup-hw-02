@@ -1,4 +1,5 @@
 /* #region common */
+
 /* :root {
     --navy-blue-dark: #2E2F42;
     --slate-text: #434455;
@@ -39,9 +40,11 @@ a {
     clip-path: inset(50%);
     margin: -1px;
 }
+
 /* #endregion common */
 
 /* #region header */
+
 .page-header {}
 
 .page-nav {}
@@ -49,7 +52,7 @@ a {
 .main-logo {
     font-family: "Raleway";
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -113,6 +116,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button-hero:hover,
@@ -123,6 +127,7 @@ a {
 /* #endregion hero */
 
 /* #region Pillars */
+
 .section-pillars {}
 
 .pillars-list {}
@@ -145,6 +150,7 @@ a {
 /* #endregion Pillars */
 
 /* #region Our Team */
+
 .section-team {
     background-color: #F4F4FD;
 }
@@ -180,6 +186,7 @@ a {
 /* #endregion Our Team */
 
 /* #region Portfolio */
+
 .section-portfolio {}
 
 .portfolio-title {
@@ -211,6 +218,7 @@ a {
 /* #endregion Portfolio */
 
 /* #region footer */
+
 .page-footer {
     background: #2E2F42;
 }
@@ -219,7 +227,7 @@ a {
     color: #F4F4FD;
     font-family: "Raleway";
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -229,4 +237,5 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 /* #endregion footer */
