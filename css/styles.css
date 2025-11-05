@@ -1,16 +1,26 @@
 /* #region common */
+/* :root {
+    --navy-blue-dark: #2E2F42;
+    --slate-text: #434455;
+    --iris-brand: #4D5AE5;
+    --ocean-state: #404BBF;
+    --white-background: #FFFFFF;
+    --cloud-light: #F4F4FD;
+} */
+
 body {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
     background-color: #FFFFFF;
 }
 
-ul, ol {
+ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+    color: #2E2F42;
 }
 
 .text-iris {
@@ -36,27 +46,80 @@ a {
 
 .page-nav {}
 
-.main-logo {}
+.main-logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
 .nav-list {}
 
 .nav-list-item {}
 
-.nav-link {}
+.nav-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #4D5AE5;
+}
 
 .header-address {}
 
-.header-address-list {}
+.header-address-list {
+    /* display: flex; */
+}
 
 .header-address-item {}
+
+.header-mail,
+.header-tel {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: #4D5AE5;
+}
+
 /* #endregion header */
 
 /* #region hero */
-.section-hero {}
 
-.title-hero {}
+.section-hero {
+    background: #2E2F42;
+}
+
+.title-hero {
+    color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
  
-.button-hero {}
+.button-hero {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button-hero:hover,
+.button-hero:active {
+    background-color: #404BBF;
+}
 
 /* #endregion hero */
 
@@ -67,17 +130,33 @@ a {
 
 .pillars-item {}
 
-.pillars-item-title {}
+.pillars-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
-.pillars-item-description {}
+.pillars-item-description {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 /* #endregion Pillars */
 
 
 /* #region Our Team */
-.section-team {}
+.section-team {
+    background-color: #F4F4FD;
+}
 
-.team-title {}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
 
 .team-list {}
 
@@ -85,9 +164,20 @@ a {
 
 .team-item-image {}
 
-.team-item-title {}
+.team-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
 
-.team-item-description {}
+.team-item-description {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
 
 /* #endregion Our Team */
 
