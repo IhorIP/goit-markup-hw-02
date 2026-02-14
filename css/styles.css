@@ -69,10 +69,12 @@ a {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 
-.header-address {}
+.header-address {
+    font-style: normal
+}
 
 .header-address-list {
     /* display: flex; */
@@ -91,7 +93,7 @@ a {
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 
 /* #endregion header */
@@ -119,7 +121,8 @@ a {
     cursor: pointer;
 }
 
-.button-hero:hover,
+.button-hero:hover, 
+.button-hero:focus,
 .button-hero:active {
     background-color: #404BBF;
 }
@@ -152,7 +155,7 @@ a {
 /* #region Our Team */
 
 .section-team {
-    background-color: #F4F4FD;
+    /* background-color: #F4F4FD; */
 }
 
 .team-title {
@@ -164,7 +167,9 @@ a {
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #F4F4FD;
+}
 
 .team-item-image {}
 
