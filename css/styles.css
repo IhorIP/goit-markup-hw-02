@@ -155,7 +155,7 @@ a {
 /* #region Our Team */
 
 .section-team {
-    /* background-color: #F4F4FD; */
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -168,7 +168,7 @@ a {
 .team-list {}
 
 .team-item {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team-item-image {}
